@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Create a delete button
     const deleteButton = document.createElement("button");
-    deleteButton.textContent = "X";
+    deleteButton.textContent = "delete me";
     deleteButton.style.marginLeft = "10px";
     deleteButton.addEventListener("click", () => taskItem.remove());
 
@@ -30,5 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Clear input field
     taskInput.value = "";
+    
   });
 });
